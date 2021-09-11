@@ -37,6 +37,12 @@ class App extends React.Component {
     }
   };
 
+
+  componentDidUpdate (){
+    console.log("Se actualizo el componente")
+  }
+
+
   render() {
     return (
       <div className="App">
